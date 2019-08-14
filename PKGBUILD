@@ -7,7 +7,7 @@ pkgdesc='Open-source office suite that combines text, spreadsheet and presentati
 url="https://www.onlyoffice.com/"
 license=('AGPL3')
 arch=('x86_64')
-depends=('desktop-file-utils' 'hicolor-icon-theme')
+depends=('desktop-file-utils' 'gconf' 'hicolor-icon-theme')
 options=(!strip !zipman)
 source=("https://github.com/ONLYOFFICE/DesktopEditors/releases/download/ONLYOFFICE-DesktopEditors-${pkgver}/${pkgname}-x64.tar.gz"
         "${pkgname}.desktop"
