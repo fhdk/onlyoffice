@@ -7,7 +7,14 @@ pkgdesc='Open-source office suite that combines text, spreadsheet and presentati
 url="https://www.onlyoffice.com/"
 license=('AGPL3')
 arch=('x86_64')
-depends=('desktop-file-utils' 'gconf' 'hicolor-icon-theme')
+depends=('alsa-lib' 'curl' 'wget' 'libxss' 'gtkglext' 'cairo' 'gconf' 'gcc-libs'
+         'ttf-dejavu' 'ttf-liberation' 'ttf-carlito' 'xdg-utils' 'libx11' 'fontconfig'
+         'freetype2' 'libsm' 'libxtst' 'gstreamer' 'gst-plugins-base-libs' 'libdrm'
+         'pango' 'libice' 'libpulse' 'libxext' 'libxdamage' 'nss' 'nspr'
+         'libcurl-gnutls' 'libxcursor' 'gtk2' 'libglvnd' 'libxrender' 'libcups'
+         'libxrandr' 'libxcomposite' 'libxfixes' 'libxi' 'atk' 'libxcb' 'gdk-pixbuf2'
+         'qt5-svg' 'gtk3' 'qt5-declarative' 'qt5-x11extras' 'qt5-multimedia'
+         'desktop-file-utils' 'hicolor-icon-theme')
 options=(!strip !zipman)
 source=("https://github.com/ONLYOFFICE/DesktopEditors/releases/download/ONLYOFFICE-DesktopEditors-${pkgver}/${pkgname}-x64.tar.gz"
         "${pkgname}.desktop"
