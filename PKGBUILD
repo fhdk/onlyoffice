@@ -20,7 +20,7 @@ source=("https://github.com/ONLYOFFICE/DesktopEditors/releases/download/ONLYOFFI
         "${pkgname}.desktop"
         "${pkgname}.sh")
 noextract=("${pkgname}-x64.tar.gz")
-sha256sums=('7bf6ad2e1879591f69693e83fb177f6ed3f96b6cc44e5cfe9b6259da5c441abd'
+sha256sums=('e81df64843274e707ba61ca064694a087b9eceff5b4c24f19533121965913d88'
             '23496f1cb2dee73c86c9c7b62ab03c6bd33411dc98b703df07744a7764dbe19a'
             'f066e1f8c68696ef06319b2c41aacd44de7f5711b4b1a4e5543e4b9c5f393d59')
 
