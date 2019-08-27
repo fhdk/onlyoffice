@@ -1,8 +1,8 @@
 # Maintainer: David Spink <yorper_protonmail.com>
 
 pkgname=onlyoffice-desktopeditors
-pkgver=5.3.3
-pkgrel=1.1
+pkgver=5.3.5
+pkgrel=1
 pkgdesc='Open-source office suite that combines text, spreadsheet and presentation editors.'
 url="https://www.onlyoffice.com/"
 license=('AGPL3')
