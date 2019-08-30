@@ -24,7 +24,8 @@ source=("https://github.com/ONLYOFFICE/DesktopEditors/releases/download/ONLYOFFI
 noextract=("${pkgname}-x64.tar.gz")
 sha256sums=('e81df64843274e707ba61ca064694a087b9eceff5b4c24f19533121965913d88'
             '23496f1cb2dee73c86c9c7b62ab03c6bd33411dc98b703df07744a7764dbe19a'
-            'f066e1f8c68696ef06319b2c41aacd44de7f5711b4b1a4e5543e4b9c5f393d59')
+            'f066e1f8c68696ef06319b2c41aacd44de7f5711b4b1a4e5543e4b9c5f393d59'
+            '7383333b7967d1a9cf63f5d99b3c229a1bf5cf896841872301352f76970ca7dc')
 
 package() {
   install -d -m0755 "$pkgdir"/{usr/bin/onlyoffice,usr/bin}
