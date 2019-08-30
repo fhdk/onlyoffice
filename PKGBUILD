@@ -1,4 +1,5 @@
-# Maintainer: David Spink <yorper_protonmail.com>
+# Maintainer: fhatmanjaroorg
+# Contributor: David Spink <yorper_protonmail.com>
 
 pkgname=onlyoffice-desktopeditors
 pkgver=5.3.5
